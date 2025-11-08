@@ -1,0 +1,12 @@
+[project]
+name = "repro"
+version = "0.0.0"
+requires-python = "~=3.14"
+dependencies = [
+    "coverage==7.11.1",
+    "fastapi[standard]",
+    "pytest"
+]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
